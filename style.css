@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.navigation {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
