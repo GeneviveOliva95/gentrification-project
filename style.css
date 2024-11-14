@@ -14,23 +14,35 @@ body {
 }
 
 .navigation {
-    font-size: 18px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 
-button {
+.explore-button {
     background-color: rgb(51, 51, 51);
     color: white;
-    padding: 10px 20px;
-    border: 0px;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border: 0px;
+}
+
+.hero {
+    background-color: rgba(158, 144, 107, 0.986);
+    background-blend-mode: lighten;
+    background-image: url(gentrification-images/melyna-cote-architecture.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
 }
