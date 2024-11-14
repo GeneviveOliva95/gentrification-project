@@ -42,8 +42,8 @@ a {
     background-size: cover;
     background-position: 0 -100px;
     background-repeat: no-repeat;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .hero-content {
@@ -51,5 +51,12 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 80px;
+}
+
+/*hero-text modifications go here*/
+
+.family-house {
+    height: 300px;
+    width: 400px;
 }
     
