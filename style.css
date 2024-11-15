@@ -69,3 +69,19 @@ a {
     width: 400px;
 }
 
+.quote {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 15px 80px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
