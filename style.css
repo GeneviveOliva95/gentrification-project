@@ -61,7 +61,7 @@ a {
 
 .hero-term,
 .hero-definition {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .family-house {
@@ -77,11 +77,13 @@ a {
 }
 
 .quote-text {
+    text-align: center;
     display: flex;
     justify-content: center;
 }
 
 .quote-author {
+    padding-right: 90px;
     display: flex;
     justify-content: flex-end;
 }
