@@ -36,7 +36,7 @@ a {
 }
 
 .hero-background {
-    background-color: rgba(158, 144, 107, 0.986);
+    background-color: rgba(192, 181, 153, 0.952);
     background-blend-mode: lighten;
     background-image: url(gentrification-images/melyna-cote-architecture.jpg);
     background-size: cover;
@@ -53,15 +53,19 @@ a {
     gap: 80px;
 }
 
-/*hero-text modifications go here*/
-
-.family-house {
-    height: 300px;
-    width: 400px;
-}
-    
 .oakland {
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: underline;
 }
+
+.hero-term,
+.hero-definition {
+    font-size: 20px;
+}
+
+.family-house {
+    height: 300px;
+    width: 400px;
+}
+
