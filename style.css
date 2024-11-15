@@ -62,4 +62,6 @@ a {
     
 .oakland {
     font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
