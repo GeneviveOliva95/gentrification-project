@@ -42,8 +42,8 @@ a {
     background-size: cover;
     background-position: 0 -100px;
     background-repeat: no-repeat;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .hero-content {
@@ -65,8 +65,8 @@ a {
 }
 
 .family-house {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 }
 
 .quote {
