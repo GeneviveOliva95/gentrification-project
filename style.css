@@ -87,3 +87,28 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+.information-background {
+    background-color: rgb(192, 181, 153, 0.952);
+}
+
+.information-content {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.information-image {
+    height: 500px;
+    width: 300px;
+}
+
+.information-title {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.information-list {
+    font-size: 25px;
+}
