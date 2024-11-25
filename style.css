@@ -89,7 +89,15 @@ a {
 }
 
 .information-section {
+    /*
     background-color: rgb(192, 181, 153, 0.952);
+    */
+    background-color: rgba(192, 181, 153, 0.952);
+    background-blend-mode: lighten;
+    background-image: url(gentrification-images/skyscraper-image.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
 }
 
 .information-content {
@@ -102,6 +110,11 @@ a {
 .information-image {
     height: 500px;
     width: 300px;
+}
+
+.information-text {
+    background-color: white;
+    padding: 50px;
     border: 10px double black;
 }
 
