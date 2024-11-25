@@ -64,6 +64,10 @@ a {
     font-size: 30px;
 }
 
+p {
+    margin: 0;
+}
+
 .family-house {
     height: 400px;
     width: 500px;
@@ -105,11 +109,23 @@ a {
     gap: 50px;
 }
 
+.information-img-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
 .information-image {
-    height: 500px;
+    height: 400px;
     width: 300px;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
+}
+
+.information-image-two {
+    height: 350px;
+    width: 300px;
 }
 
 .information-text {
