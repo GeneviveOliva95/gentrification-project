@@ -96,7 +96,6 @@ p {
 }
 
 .information-section {
-    background-color: rgb(192, 181, 153, 0.952);
     background-color: rgba(192, 181, 153, 0.952);
     background-blend-mode: lighten;
     background-image: url(gentrification-images/skyscraper-image.jpg);
@@ -145,4 +144,18 @@ p {
 
 .information-list {
     font-size: 25px;
+}
+
+.importance-content {
+    background-color: black;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tree {
+    height: 300px;
+    width: 1300px;
+    filter: blur(3px) grayscale(100%);
 }
