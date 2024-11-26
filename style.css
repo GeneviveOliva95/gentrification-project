@@ -1,5 +1,6 @@
 body {
-    margin: 0px;
+    min-height: 100vh;
+    margin: 0;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
@@ -208,3 +209,16 @@ p {
     max-width: 200px;
 }
 
+.footer-background {
+    background-color: black;
+}
+
+.footer-credit {
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
