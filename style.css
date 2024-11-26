@@ -37,6 +37,11 @@ a {
     border: 0px;
 }
 
+.explore-button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
 .hero-section {
     background-color: rgba(192, 181, 153, 0.952);
     background-blend-mode: lighten;
