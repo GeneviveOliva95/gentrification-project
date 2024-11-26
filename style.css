@@ -152,10 +152,33 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .tree {
-    height: 300px;
+    height: 400px;
     width: 1300px;
+    min-height: 200px;
+    min-width: 1100px;
     filter: blur(3px) grayscale(100%);
+    opacity: 0.3;
+    mix-blend-mode: hard-light;
+}
+
+.importance-text-box {
+    max-height: 300px;
+    min-width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.importance-text-topic,
+.importance-text-response {
+    color: rgba(192, 181, 153);
+    font-style: bold;
+    font-size: 20px;
 }
