@@ -124,8 +124,8 @@ p {
 .information-img-caption {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 50px;
+    max-width: 300px;
 }
 
 .information-image {
@@ -138,6 +138,15 @@ p {
 .information-image-two {
     height: 350px;
     width: 300px;
+}
+
+.moskowitz {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.moskowitz-credit {
+    font-size: 20px;
 }
 
 .information-text {
@@ -272,9 +281,10 @@ p {
     margin: 10px 0;
 }
 
-.donate {
+.bottom-links {
     display: flex;
     justify-content: center;
+    gap: 30px;
     background-color: rgb(158, 151, 134);
     padding: 50px;
 }
