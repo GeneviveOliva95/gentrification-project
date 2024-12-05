@@ -224,6 +224,7 @@ p {
 .graph-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 150px;
     padding: 0 10px 50px;
 }
@@ -244,6 +245,31 @@ p {
 
 .image-graph-text {
     width: 500px;
+}
+
+.academic-sources {
+    background-color: rgb(158, 151, 134);
+    padding: 20px 80px 40px;
+}
+
+.video,
+.article {
+    font-size: 25px;
+}
+
+.video:hover, 
+.article:hover {
+    color: rgb(73, 52, 36);
+}
+
+.academic-header {
+    font-size: 30px;
+}
+
+.academic-header, 
+.video-link,
+.article-link {
+    margin: 10px 0;
 }
 
 .footer-background {
