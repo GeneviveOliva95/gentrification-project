@@ -43,7 +43,7 @@ a {
 }
 
 .hero-section {
-    background-color: rgba(192, 181, 153, 0.952);
+    background-color: rgba(180, 173, 154, 0.952);
     background-blend-mode: lighten;
     background-image: url(gentrification-images/melyna-cote-architecture.jpg);
     background-size: cover;
@@ -106,7 +106,7 @@ p {
 }
 
 .information-section {
-    background-color: rgba(192, 181, 153, 0.952);
+    background-color: rgba(170, 162, 140, 0.952);
     background-blend-mode: lighten;
     background-image: url(gentrification-images/skyscraper-image.jpg);
     background-size: cover;
@@ -191,6 +191,9 @@ p {
 }
 
 .importance-text-response {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -202,7 +205,7 @@ p {
 }
 
 .facts-content {
-    background-color: rgba(192, 181, 153);
+    background-color: rgb(255, 255, 255);
     padding: 30px 80px;
     font-size: 20px;
     display: flex;
@@ -212,6 +215,37 @@ p {
 .facts-title {
     font-size: 40px;
     max-width: 200px;
+}
+
+.graph-section {
+    background-color: rgb(122, 117, 104);
+}
+
+.graph-content {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 80px;
+}
+
+.image-size-one {
+    width: 600px;
+    height: 500px;
+}
+
+.image-size-two {
+    margin-top: 5px;
+    width: 700px;
+    height: 540px;
+}
+
+.image-graph-label {
+    padding-bottom: 10px;
+}
+
+.image-graph-text {
+    width: 500px;
+    padding: 0 0 0 70px;
 }
 
 .footer-background {
